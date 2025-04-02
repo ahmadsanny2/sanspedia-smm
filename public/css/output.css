@@ -2114,9 +2114,26 @@
       padding: calc(var(--spacing) * 0);
     }
   }
+  .lg\:p-2 {
+    @media (width >= 64rem) {
+      padding: calc(var(--spacing) * 2);
+    }
+  }
   .lg\:px-16 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:hover\:scale-105 {
+    @media (width >= 64rem) {
+      &:hover {
+        @media (hover: hover) {
+          --tw-scale-x: 105%;
+          --tw-scale-y: 105%;
+          --tw-scale-z: 105%;
+          scale: var(--tw-scale-x) var(--tw-scale-y);
+        }
+      }
     }
   }
   .xl\:grid-cols-4 {
