@@ -308,7 +308,7 @@ for (let i = 0; i < 8; i++) {
     const childSatuTiktokIndonesia = document.createElement("div");
 
     const ImageTiktokIndonesia = document.createElement("img");
-    ImageTiktokIndonesia.src = "./../public/images/Tiktok.png";
+    ImageTiktokIndonesia.src = "./../public/images/tiktok.png";
     ImageTiktokIndonesia.classList.add("w-20");
 
     const childDuaTiktokIndonesia = document.createElement("div");
@@ -387,7 +387,7 @@ for (let i = 0; i < 8; i++) {
     const childSatuTiktokIndonesia = document.createElement("div");
 
     const ImageTiktokIndonesia = document.createElement("img");
-    ImageTiktokIndonesia.src = "./../public/images/Tiktok.png";
+    ImageTiktokIndonesia.src = "./../public/images/tiktok.png";
     ImageTiktokIndonesia.classList.add("w-20");
 
     const childDuaTiktokIndonesia = document.createElement("div");
@@ -466,7 +466,7 @@ for (let i = 0; i < 8; i++) {
     const childSatuTiktokIndonesia = document.createElement("div");
 
     const ImageTiktokIndonesia = document.createElement("img");
-    ImageTiktokIndonesia.src = "./../public/images/Tiktok.png";
+    ImageTiktokIndonesia.src = "./../public/images/tiktok.png";
     ImageTiktokIndonesia.classList.add("w-20");
 
     const childDuaTiktokIndonesia = document.createElement("div");
@@ -546,7 +546,7 @@ for (let i = 0; i < 8; i++) {
     const childSatuYoutubeIndonesia = document.createElement("div");
 
     const ImageYoutubeIndonesia = document.createElement("img");
-    ImageYoutubeIndonesia.src = "./../public/images/Youtube.png";
+    ImageYoutubeIndonesia.src = "./../public/images/youtube.png";
     ImageYoutubeIndonesia.classList.add("w-20");
 
     const childDuaYoutubeIndonesia = document.createElement("div");
@@ -704,7 +704,7 @@ for (let i = 0; i < 8; i++) {
     const childSatuYoutubeIndonesia = document.createElement("div");
 
     const ImageYoutubeIndonesia = document.createElement("img");
-    ImageYoutubeIndonesia.src = "./../public/images/Youtube.png";
+    ImageYoutubeIndonesia.src = "./../public/images/youtube.png";
     ImageYoutubeIndonesia.classList.add("w-20");
 
     const childDuaYoutubeIndonesia = document.createElement("div");
