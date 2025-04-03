@@ -46,22 +46,23 @@
                                 class="fa fa-bars border-2 border-blue-500 hover:bg-blue-500 hover:text-white p-2 transition-all ease-in duration-300 rounded"></i>
                         </button>
                     </div>
-                    <ul class="hidden block lg:flex gap-5" id="menu">
+                    <ul class="hidden block lg:flex gap-5 items-center" id="menu">
                         <li class="my-1 lg:my-0">
-                            <a href="" class="inline-block w-full"> Home </a>
+                            <a href="#home" class="inline-block w-full"> Home </a>
                         </li>
                         <li class="my-1 lg:my-0">
-                            <a href="" class="inline-block w-full"> Pricelist </a>
+                            <a href="#feature" class="inline-block w-full"> Feature </a>
                         </li>
                         <li class="my-1 lg:my-0">
-                            <a href="" class="inline-block w-full"> Feature </a>
+                            <a href="#service" class="inline-block w-full"> Service </a>
                         </li>
                         <li class="my-1 lg:my-0">
-                            <a href="" class="inline-block w-full"> About Us </a>
+                            <a href="#contact" class="inline-block w-full"> Contact </a>
                         </li>
                         <li class="my-1 lg:my-0">
-                            <a href="" class="inline-block w-full"> Contact </a>
+                            <a href="#faq" class="inline-block w-full"> FAQ </a>
                         </li>
+                        <a href="./public/pricelist.html" class="bg-blue-500 text-white p-2 rounded">Pricelist</a>
                     </ul>
                 </div>
             </nav>
@@ -75,7 +76,9 @@
                     <div class="lg:w-[60%] space-y-4">
                         <div class="">
                             <h3 class="md:text-lg font-medium">Selamat datang di</h3>
-                            <h1 class="text-xl md:text-3xl lg:text-2xl xl:text-4xl font-bold">SANS PEDIA | SMM Indonesia</h1>
+                            <h1 class="text-xl md:text-3xl lg:text-2xl xl:text-4xl font-bold">
+                                SANS PEDIA | SMM Indonesia
+                            </h1>
                             <p class="text-sm sm:text-base">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Aliquam ex itaque expedita commodi, dicta porro blanditiis
@@ -92,191 +95,48 @@
             </div>
         </section>
 
-        <section class="pricelist container mx-auto mt-20">
+        <section class="feature container mx-auto" id="feature">
+            <div class="px-5 md:px-10 lg:px-16"></div>
+        </section>
+
+        <section class="service container mx-auto mt-10" id="service">
             <div class="px-5 md:px-10 lg:px-16">
-                <h2 class="text-2xl font-semibold">Pricelist</h2>
-                <div class="button-layanan flex gap-2 mt-2 overflow-x-scroll">
-                    <button
-                        class="tab-btn border border-blue-500 bg-blue-500 hover:bg-blue-500 text-white hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
-                        data-tab="instagram">
-                        Layanan Instagram
-                    </button>
-                    <button
-                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
-                        data-tab="tiktok">
-                        Layanan Tiktok
-                    </button>
-                    <button
-                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
-                        data-tab="youtube">
-                        Layanan Youtube
-                    </button>
+                <div class="">
+                    <h4 class="text-2xl text-center font-semibold">Service</h4>
+                    <div class="bg-blue-500 mx-auto w-10 h-1 rounded"></div>
                 </div>
-
-                <div class="mt-2">
-                    <!-- Layanan Instagram -->
-                    <div class="tab-content" id="instagram">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            INSTAGRAM INDONESIA
-                        </h3>
-                        <div class="instagram-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="instagram-folls-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
+                    <div class="border-t-2 border-b-2 border-blue-500 shadow-lg w-full text-center p-2 rounded-xl">
+                        <div class="">
+                            <i class="text-blue-500 fas fa-bolt text-6xl"></i>
+                            <h4 class="text-blue-500 text-2xl font-semibold">Booster Social Media</h4>
                         </div>
-
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            INSTAGRAM LUAR NEGERI
-                        </h3>
-                        <div class="instagram-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="instagram-folls-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
+                        <p class="mt-1">
+                            Tingkatkan engagement akun sosial media Anda dengan layanan booster kami. Dapatkan lebih banyak like, followers, dan interaksi secara cepat dan aman.
+                        </p>
                     </div>
-
-                    <!-- Layanan Tiktok -->
-                    <div class="tab-content hidden" id="tiktok">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            TIKTOK INDONESIA
-                        </h3>
-                        <div class="tiktok-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="tiktok-folls-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
+                    <div class="border-t-2 border-b-2 border-blue-500 shadow-lg w-full text-center p-2 rounded-xl">
+                        <div class="">
+                            <i class="text-blue-500 fas fa-crown text-6xl"></i>
+                            <h4 class="text-blue-500 text-2xl font-semibold">Apps Premium</h4>
                         </div>
-
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            TIKTOK LUAR NEGERI
-                        </h3>
-                        <div class="tiktok-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="tiktok-folls-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
+                        <p class="mt-1">
+                            Dapatkan akses ke aplikasi premium dengan harga terjangkau. Nikmati fitur eksklusif yang dapat meningkatkan produktivitas dan kenyamanan Anda.
+                        </p>
                     </div>
-
-                    <!-- Layanan Youtube -->
-                    <div class="tab-content hidden" id="youtube">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            YOUTUBE INDONESIA
-                        </h3>
-                        <div class="youtube-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="youtube-subscribers-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
+                    <div class="border-t-2 border-b-2 border-blue-500 shadow-lg w-full text-center p-2 rounded-xl">
+                        <div class="">
+                            <i class="text-blue-500 fas fa-laptop-code text-6xl"></i>
+                            <h4 class="text-blue-500 text-2xl font-semibold">Re-Install Windows</h4>
                         </div>
-
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            YOUTUBE LUAR NEGERI
-                        </h3>
-                        <div class="youtube-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="youtube-subscribers-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
+                        <p class="mt-1">
+                            Layanan reinstall Windows dengan setup optimal untuk meningkatkan performa perangkat Anda. Termasuk pengaturan driver dan software dasar.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="container mx-auto">
-            <div class="px-5 md:px-10 lg:px-16"></div>
-        </section>
-
-        <section class="container mx-auto">
-            <div class="px-5 md:px-10 lg:px-16"></div>
-        </section>
 
         <section class="container mx-auto">
             <div class="px-5 md:px-10 lg:px-16"></div>
@@ -287,270 +147,7 @@
         <div class="px-5 md:px-10 lg:px-16 py-4"></div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            const menu = document.querySelector("#menu");
-            menu.classList.toggle("hidden");
-        }
-
-        document.querySelectorAll(".tab-btn").forEach((button) => {
-            button.addEventListener("click", function () {
-                document
-                    .querySelectorAll(".tab-btn")
-                    .forEach((btn) =>
-                        btn.classList.remove("bg-blue-500", "text-white")
-                    );
-                this.classList.add("bg-blue-500", "text-white");
-
-                document
-                    .querySelectorAll(".tab-content")
-                    .forEach((tab) => tab.classList.add("hidden"));
-                document
-                    .querySelector("#" + this.dataset.tab)
-                    .classList.remove("hidden");
-            });
-        });
-    </script>
-
-    <!-- Layanan Instagram -->
-    <script>
-        const containerFollsInstagramIndonesia = document.querySelector(
-            ".instagram-folls-indonesia"
-        );
-
-        const arrTitleFollsInstagramIndonesia = [
-            "100 Followers Indonesia",
-            "200 Followers Indonesia",
-            "300 Followers Indonesia",
-            "400 Followers Indonesia",
-            "500 Followers Indonesia",
-            "600 Followers Indonesia",
-            "700 Followers Indonesia",
-            "800 Followers Indonesia",
-        ];
-
-        const arrPriceFollsInstagramIndonesia = [
-            "Rp8.500",
-            "Rp17.000",
-            "Rp25.500",
-            "Rp34.000",
-            "Rp42.500",
-            "Rp51.000",
-            "Rp59.500",
-            "Rp68.000",
-        ];
-
-        for (let i = 0; i < 8; i++) {
-            const containerInstagram = document.createElement("div");
-            containerInstagram.classList.add(
-                "flex",
-                "lg:hover:scale-105",
-                "border",
-                "border-blue-500",
-                "shadow-md",
-                "items-center",
-                "gap-5",
-                "min-w-[300px]",
-                "sm:min-w-0",
-                "transition-all",
-                "ease-in",
-                "duration-200",
-                "p-2",
-                "rounded"
-            );
-
-            const childSatuInstagramIndonesia = document.createElement("div");
-
-            const ImageInstagramIndonesia = document.createElement("img");
-            ImageInstagramIndonesia.src = "./public/images/instagram.png";
-            ImageInstagramIndonesia.classList.add("w-20");
-
-            const childDuaInstagramIndonesia = document.createElement("div");
-            childDuaInstagramIndonesia.classList.add("w-full");
-
-            const titleInstagramIndonesia = document.createElement("h4");
-            titleInstagramIndonesia.classList.add(
-                "text-sm",
-                "text-center",
-                "font-semibold"
-            );
-            titleInstagramIndonesia.innerText = arrTitleFollsInstagramIndonesia[i];
-
-            const priceInstagramIndonesia = document.createElement("p");
-            priceInstagramIndonesia.classList.add(
-                "text-blue-500",
-                "text-sm",
-                "text-end",
-                "mt-5"
-            );
-            priceInstagramIndonesia.innerText = arrPriceFollsInstagramIndonesia[i];
-
-            containerFollsInstagramIndonesia.appendChild(containerInstagram);
-            containerInstagram.appendChild(childSatuInstagramIndonesia);
-            childSatuInstagramIndonesia.appendChild(ImageInstagramIndonesia);
-            containerInstagram.appendChild(childDuaInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(titleInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(priceInstagramIndonesia);
-        }
-
-        const containerLikesInstagramIndonesia = document.querySelector(
-            ".instagram-likes-indonesia"
-        );
-
-        const arrTitleLikesInstagramIndonesia = [
-            "100 Likes Indonesia",
-            "200 Likes Indonesia",
-            "300 Likes Indonesia",
-            "400 Likes Indonesia",
-            "500 Likes Indonesia",
-            "600 Likes Indonesia",
-            "700 Likes Indonesia",
-            "800 Likes Indonesia",
-        ];
-
-        const arrPriceLikesInstagramIndonesia = [
-            "Rp8.500",
-            "Rp17.000",
-            "Rp25.500",
-            "Rp34.000",
-            "Rp42.500",
-            "Rp51.000",
-            "Rp59.500",
-            "Rp68.000",
-        ];
-
-        for (let i = 0; i < 8; i++) {
-            const containerInstagram = document.createElement("div");
-            containerInstagram.classList.add(
-                "flex",
-                "lg:hover:scale-105",
-                "border",
-                "border-blue-500",
-                "shadow-md",
-                "items-center",
-                "gap-5",
-                "min-w-[300px]",
-                "sm:min-w-0",
-                "transition-all",
-                "ease-in",
-                "duration-200",
-                "p-2",
-                "rounded"
-            );
-
-            const childSatuInstagramIndonesia = document.createElement("div");
-
-            const ImageInstagramIndonesia = document.createElement("img");
-            ImageInstagramIndonesia.src = "./public/images/instagram.png";
-            ImageInstagramIndonesia.classList.add("w-20");
-
-            const childDuaInstagramIndonesia = document.createElement("div");
-            childDuaInstagramIndonesia.classList.add("w-full");
-
-            const titleInstagramIndonesia = document.createElement("h4");
-            titleInstagramIndonesia.classList.add(
-                "text-sm",
-                "text-center",
-                "font-semibold"
-            );
-            titleInstagramIndonesia.innerText = arrTitleLikesInstagramIndonesia[i];
-
-            const priceInstagramIndonesia = document.createElement("p");
-            priceInstagramIndonesia.classList.add(
-                "text-blue-500",
-                "text-sm",
-                "text-end",
-                "mt-5"
-            );
-            priceInstagramIndonesia.innerText = arrPriceLikesInstagramIndonesia[i];
-
-            containerLikesInstagramIndonesia.appendChild(containerInstagram);
-            containerInstagram.appendChild(childSatuInstagramIndonesia);
-            childSatuInstagramIndonesia.appendChild(ImageInstagramIndonesia);
-            containerInstagram.appendChild(childDuaInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(titleInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(priceInstagramIndonesia);
-        }
-
-        const containerViewsInstagramIndonesia = document.querySelector(
-            ".instagram-views-indonesia"
-        );
-
-        const arrTitleViewsInstagramIndonesia = [
-            "100 Views Indonesia",
-            "200 Views Indonesia",
-            "300 Views Indonesia",
-            "400 Views Indonesia",
-            "500 Views Indonesia",
-            "600 Views Indonesia",
-            "700 Views Indonesia",
-            "800 Views Indonesia",
-        ];
-
-        const arrPriceViewsInstagramIndonesia = [
-            "Rp8.500",
-            "Rp17.000",
-            "Rp25.500",
-            "Rp34.000",
-            "Rp42.500",
-            "Rp51.000",
-            "Rp59.500",
-            "Rp68.000",
-        ];
-
-        for (let i = 0; i < 8; i++) {
-            const containerInstagram = document.createElement("div");
-            containerInstagram.classList.add(
-                "flex",
-                "lg:hover:scale-105",
-                "border",
-                "border-blue-500",
-                "shadow-md",
-                "items-center",
-                "gap-5",
-                "min-w-[300px]",
-                "sm:min-w-0",
-                "transition-all",
-                "ease-in",
-                "duration-200",
-                "p-2",
-                "rounded"
-            );
-
-            const childSatuInstagramIndonesia = document.createElement("div");
-
-            const ImageInstagramIndonesia = document.createElement("img");
-            ImageInstagramIndonesia.src = "./public/images/instagram.png";
-            ImageInstagramIndonesia.classList.add("w-20");
-
-            const childDuaInstagramIndonesia = document.createElement("div");
-            childDuaInstagramIndonesia.classList.add("w-full");
-
-            const titleInstagramIndonesia = document.createElement("h4");
-            titleInstagramIndonesia.classList.add(
-                "text-sm",
-                "text-center",
-                "font-semibold"
-            );
-            titleInstagramIndonesia.innerText = arrTitleViewsInstagramIndonesia[i];
-
-            const priceInstagramIndonesia = document.createElement("p");
-            priceInstagramIndonesia.classList.add(
-                "text-blue-500",
-                "text-sm",
-                "text-end",
-                "mt-5"
-            );
-            priceInstagramIndonesia.innerText = arrPriceViewsInstagramIndonesia[i];
-
-            containerViewsInstagramIndonesia.appendChild(containerInstagram);
-            containerInstagram.appendChild(childSatuInstagramIndonesia);
-            childSatuInstagramIndonesia.appendChild(ImageInstagramIndonesia);
-            containerInstagram.appendChild(childDuaInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(titleInstagramIndonesia);
-            childDuaInstagramIndonesia.appendChild(priceInstagramIndonesia);
-        }
-    </script>
+    <script src="./public/js/main.js"></script>
 </body>
 
 </html>
