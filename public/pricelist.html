@@ -27,8 +27,7 @@
             display: none;
         }
 
-        .instagram-indonesia .overflow-x-scroll::-webkit-scrollbar,
-        .instagram-luar-negeri .overflow-x-scroll::-webkit-scrollbar {
+        .overflow-x-scroll::-webkit-scrollbar {
             display: none;
         }
     </style>
@@ -79,19 +78,29 @@
                 </div>
                 <div class="button-layanan flex gap-2 mt-2 overflow-x-scroll lg:justify-center">
                     <button
-                        class="tab-btn border border-blue-500 bg-blue-500 hover:bg-blue-500 text-white hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
+                        class="tab-btn border border-blue-500 bg-blue-500 hover:bg-blue-500 text-white hover:text-white cursor-pointer text-sm min-w-[200px] p-2 rounded-full"
                         data-tab="instagram">
                         Layanan Instagram
                     </button>
                     <button
-                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
+                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[200px] p-2 rounded-full"
                         data-tab="tiktok">
                         Layanan Tiktok
                     </button>
                     <button
-                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[150px] p-2 rounded-full"
+                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[200px] p-2 rounded-full"
                         data-tab="youtube">
                         Layanan Youtube
+                    </button>
+                    <button
+                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[200px] p-2 rounded-full"
+                        data-tab="apps-premium">
+                        Layanan Apps Premium
+                    </button>
+                    <button
+                        class="tab-btn border border-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer text-sm min-w-[200px] p-2 rounded-full"
+                        data-tab="paket-combo">
+                        Paket Combo
                     </button>
                 </div>
 
@@ -99,155 +108,22 @@
 
                     <!-- Layanan Instagram -->
                     <div class="tab-content" id="instagram">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            INSTAGRAM INDONESIA
-                        </h3>
-                        <div class="instagram-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="instagram-folls-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
 
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            INSTAGRAM LUAR NEGERI
-                        </h3>
-                        <div class="instagram-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="instagram-folls-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="instagram-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <!-- Layanan Tiktok -->
                     <div class="tab-content hidden" id="tiktok">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            TIKTOK INDONESIA
-                        </h3>
-                        <div class="tiktok-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="tiktok-folls-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
 
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            TIKTOK LUAR NEGERI
-                        </h3>
-                        <div class="tiktok-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="tiktok-folls-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="tiktok-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <!-- Layanan Youtube -->
                     <div class="tab-content hidden" id="youtube">
-                        <h3 class="bg-blue-500 text-white text-center p-2 rounded">
-                            YOUTUBE INDONESIA
-                        </h3>
-                        <div class="youtube-indonesia">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="youtube-subscribers-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-likes-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-views-indonesia flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
 
-                        <h3 class="bg-blue-500 text-white text-center p-2 mt-5 rounded">
-                            YOUTUBE LUAR NEGERI
-                        </h3>
-                        <div class="youtube-luar-negeri">
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-2">
-                                <div
-                                    class="youtube-subscribers-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-likes-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                            <div
-                                class="flex sm:block snap-mandatory sm:snap-normal overflow-x-scroll sm:overflow-x-hidden mt-5">
-                                <div
-                                    class="youtube-views-luar-negeri flex shrink-0 sm:shrink sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:p-2">
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+
+                    <!-- Layanan Apps Premium -->
+                    <div class="tab-content hidden" id="apps-premium">
+
                     </div>
                 </div>
             </div>
